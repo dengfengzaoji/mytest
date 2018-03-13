@@ -33,7 +33,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String hello(){
 		
-		System.out.println("name:" + environment.getProperty("name"));
+		System.out.println("name:" + environment.getProperty("咳咳"));
 		System.out.println("url:" + environment.getProperty("url"));
 		System.out.println(name1 + "\t" + url1);
 		userService.say();
